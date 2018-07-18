@@ -23,7 +23,10 @@
             <td>{{ b.department }}</td>
             <td>{{ b.salary }}</td>
             <td>
+                <button type="button" class="btn">
               <a [routerLink]="['/empstore/', b.id]">Edit</a>
+              </button>
+              
             </td>
           </tr>
     </tbody>
